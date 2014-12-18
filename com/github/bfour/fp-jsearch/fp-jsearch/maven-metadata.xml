@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.bfour.fp-jsearch</groupId>
+  <artifactId>fp-jsearch</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20141218101733</lastUpdated>
+  </versioning>
+</metadata>
