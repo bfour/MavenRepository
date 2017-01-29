@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.bfour.jlib</groupId>
+	<artifactId>testutils</artifactId>
+	<version>0.0.5-SNAPSHOT</version>
+	<name>bfour testutils</name>
+	<description>utilities for JUnit testing</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<mainRepository>file://T:\localeigd\maven\mainRepository\</mainRepository>
+		<!-- <snapshotRepository>file://\\fp-nas-1\localeigd\FP-NAS-1\maven\snapshotRepository\</snapshotRepository> -->
+	</properties>
+
+	<distributionManagement>
+		<downloadUrl>https://github.com/bfour/MavenRepository/raw/master/</downloadUrl>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>main</id>
+			<name>Main Repository</name>
+			<url>${mainRepository}</url>
+		</repository>
+		<!-- <snapshotRepository> -->
+		<!-- <uniqueVersion>true</uniqueVersion> -->
+		<!-- <id>snapshots</id> -->
+		<!-- <name>Snapshot Repository</name> -->
+		<!-- <url>${mainRepository}</url> -->
+		<!-- </snapshotRepository> -->
+	</distributionManagement>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.bfour.jlib</groupId>
+			<artifactId>commons</artifactId>
+			<version>0.0.5-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.bfour.jlib</groupId>
+			<artifactId>search</artifactId>
+			<version>0.0.5-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
