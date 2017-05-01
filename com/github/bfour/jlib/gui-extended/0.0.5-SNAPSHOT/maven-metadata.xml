@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata modelVersion="1.1.0">
+<metadata>
   <groupId>com.github.bfour.jlib</groupId>
   <artifactId>gui-extended</artifactId>
   <version>0.0.5-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20170130.005645</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20170501.013513</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
-    <lastUpdated>20170130005645</lastUpdated>
-    <snapshotVersions>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.5-20170130.005645-4</value>
-        <updated>20170130005645</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.5-20170130.005645-4</value>
-        <updated>20170130005645</updated>
-      </snapshotVersion>
-    </snapshotVersions>
+    <lastUpdated>20170501013513</lastUpdated>
   </versioning>
 </metadata>
