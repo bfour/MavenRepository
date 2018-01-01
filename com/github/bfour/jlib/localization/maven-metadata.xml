@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.bfour.jlib</groupId>
+  <artifactId>localization</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.8-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180101153046</lastUpdated>
+  </versioning>
+</metadata>
